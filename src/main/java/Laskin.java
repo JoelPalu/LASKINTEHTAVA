@@ -1,5 +1,3 @@
-package laskin;
-
 public class Laskin {
 
     private int tulos;  	// Muuttuja tulokselle

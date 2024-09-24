@@ -1,11 +1,9 @@
-package laskin;
+
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import org.junit.jupiter.api.Test;
- 
 // Tässä käytetään ParameterizedTest -annotaatiota
 // Parametriparit taulukossa (comma separated values)
  
