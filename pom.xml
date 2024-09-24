@@ -16,6 +16,8 @@
     </properties>
 
     <build>
+
+        <finalName>calculator</finalName>
         <plugins>
             <!-- Compiler Plugin -->
             <plugin>
@@ -92,7 +94,20 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.4.1</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>Laskin</mainClass> <!-- Correct main class -->
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
         </plugins>
+
     </build>
 
     <dependencies>
@@ -110,5 +125,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+
 
 </project>
