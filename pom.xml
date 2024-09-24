@@ -101,7 +101,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>laskin.Laskin</mainClass> <!-- Correct main class -->
+                            <mainClass>Laskin</mainClass> <!-- Correct main class -->
                         </manifest>
                     </archive>
                 </configuration>
